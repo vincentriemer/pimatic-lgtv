@@ -1,0 +1,25 @@
+{
+  "name": "pimatic-lgtv",
+  "description": "The plugin description",
+  "author": "Vincent Riemer <vincentriemer@gmail.com> (http://vincentriemer.com)",
+  "main": "lgtv-plugin",
+  "files": [
+    "device-config-schema.coffee",
+    "lgtv-plugin.coffee",
+    "README.md",
+    "schema.coffee"
+  ],
+  "version": "0.8.2",
+  "homepage": "http://vincentriemer.com",
+  "configSchema": "schema.coffee",
+  "dependencies": {
+    "webos": "^1.0.5"
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
